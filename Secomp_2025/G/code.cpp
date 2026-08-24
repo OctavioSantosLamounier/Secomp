@@ -11,8 +11,7 @@ int main() {
         if(i%4 == 0 && str[i] != 'A') n++;
         if(i%4 == 1 && str[i] != 'C') n++;
         if(i%4 == 2 && str[i] != 'G') n++;
-        if(i%4 == 3 && str[i] != 'T') n++;
-        
+        if(i%4 == 3 && str[i] != 'T') n++;   
     }
 
     cout << n << endl;
