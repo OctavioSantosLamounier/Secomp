@@ -1,2 +1,7 @@
-.vscode/
-.gitignore
+# Pasta de fotos
+**/fotos/
+
+# Configurações do VSCode
+**/output/
+**/.vscode/
+*.exe
